@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Header */
+
+.navbar-brand #logo {
+  font-size: 45px;
+  font-family: "Bodoni Moda", serif;
+  font-style: italic;
+}
+header {
+  height: 5vh;
+  background-color: #333;
+  color: white;
+}
+.navi {
+  display: flex;
+  justify-content: space-around;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+.logo {
+  font-size: 45px;
+  font-family: "Bodoni Moda", serif;
+  font-style: italic;
+}
+/* Akhir Header */
+
+/*Home  */
+
+.container-satu {
+  padding-top: 20px;
+  height: 30vh;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.profile-satu {
+  text-align: center;
+  margin: 0.7%;
+}
+.profile-satu h1 {
+  color: blue;
+  font-size: 6vw;
+}
+.profile-satu h3 {
+  font-size: 2vw;
+}
+.profile-dua img {
+  height: 30vh;
+  width: 10vw;
+  border-radius: 10px;
+}
+.profile-satu button {
+  background-color: #333;
+  height: 7vh;
+  width: 8vw;
+  border: 0;
+  transition: 0.5s;
+}
+.container-satu button:hover {
+  background-color: blue;
+  cursor: pointer;
+  font-size: 1.2vw;
+  border-radius: 10px;
+}
+
+/* Akhir home */
+
+/* Content */
+.container-dua {
+  height: 40vh;
+  background-color: #333;
+  display: flex;
+  box-sizing: border-box;
+  /* justify-content: space-around; */
+}
+
+.about {
+  display: flex;
+  margin-top: 3vh;
+  justify-content: space-between;
+  height: 50%;
+  width: 90%;
+  /* margin-right: 2vw; */
+  /* padding: 0 6vw; */
+}
+.content-satu {
+  margin-top: 3vh;
+  margin-left: 8vw;
+}
+.content-satu img {
+  border-radius: 10px;
+  height: 30vh;
+  width: 20vw;
+}
+.link {
+  /* padding: 10px; */
+  margin-right: 0px;
+}
+.link img {
+  height: 5vh;
+  margin-bottom: 10%;
+  transition: 1s;
+}
+
+.container-profile {
+  margin-left: 3%;
+  height: 80%;
+  width: 60vw;
+  text-align: justify;
+}
+.container-profile p {
+  font-size: 0.9vw;
+}
+.hire {
+  margin-left: 30px;
+  height: 80vh;
+  margin-right: 30px;
+}
+.hire p {
+  font-size: 0.9vw;
+  text-align: justify;
+}
+.hire button {
+  position: relative;
+  margin: 5% 40%;
+  height: 6vh;
+  width: 10vw;
+  background: color #333;
+  border: none;
+  transition: 0.5s;
+  font-size: 1.2vw;
+}
+
+.container-dua button:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: bla;
+  font-size: 1.5vw;
+  border-radius: 10px;
+}
+.hire button a {
+  text-decoration: none;
+}
+
+.link img:hover {
+  height: 3vw;
+  cursor: pointer;
+}
+/* Akhir Konten */
+
+/* Page Portofolio */
+.container-tiga {
+  /* padding-left: 0vw; */
+  /* margin-left: 12vw; */
+  height: 100vh;
+  background-color: #333;
+  width: 99vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  /* margin-top: 30px; */
+}
+.container-tiga h1 {
+  /* padding: 10px; */
+  /* margin: 10px; */
+  padding-top: 150px;
+  color: white;
+}
+.port {
+  box-sizing: border-box;
+  border: 1px solid #f2f2f2;
+  width: 30%;
+  height: 40vh;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 3%;
+}
+.port p {
+  font-size: 0.9vw;
+  text-align: justify;
+}
+.port img {
+  width: 100%;
+  height: 60%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.cont-port {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 5px;
+  padding: 10px;
+  width: 70vw;
+  margin-left: 15vw;
+  margin-bottom: 20px;
+}
+/* Akhir Portofolio */
+
+/* Service */
+.container-empat {
+  /* padding-top: 150px; */
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 60vh;
+  align-items: center;
+}
+.cont-service {
+  margin-top: 10px;
+  display: flex;
+  height: 30vh;
+}
+.service {
+  margin-top: 10vh;
+  height: 80%;
+  box-sizing: border-box;
+  border: 1px solid #f2f2f2;
+  margin: 0 20px;
+  width: 20vw;
+}
+.service p {
+  font-size: 0.9vw;
+}
+/* Connect */
+.container-lima {
+  /* padding-top: 150px; */
+  background-color: #333;
+  height: 70vh;
+  display: flex;
+  /* text-align: center; */
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.container-lima h3 {
+  font-size: 4vh;
+  margin-bottom: 0.5%;
+  text-align: center;
+}
+.cont-email {
+  margin: 0 20vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: black;
+}
+.cont-email input {
+  height: 15%;
+  width: 40%;
+  margin: 10px;
+  color: #000;
+}
+#desc {
+  height: 65%;
+}
+.cont-email button {
+  margin-left: 10px;
+  height: 50px;
+  width: 80px;
+  color: brown;
+}
+/* width: 100%;
+  height: 50%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 3%;
+ 
+*/
+/* Footer */
+footer {
+  height: 7vh;
+  background-color: rgb(227, 228, 224);
+}
+footer p {
+  color: #333;
+  text-align: center;
+  font-size: 15px;
+}
